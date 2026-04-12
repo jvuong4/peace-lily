@@ -1,2 +1,15 @@
 {
+	"block.peace_lily.peace_lily": "Peace Lily",
+	"block.peace_lily.bird_of_paradise": "Bird of Paradise",
+	"block.peace_lily.red_snapdragon": "Red Snapdragon",
+	"block.peace_lily.white_snapdragon": "White Snapdragon",
+	"block.peace_lily.magenta_snapdragon": "Magenta Snapdragon",
+	"block.peace_lily.yellow_snapdragon": "Yellow Snapdragon",
+
+	"block.peace_lily.potted_peace_lily": "Potted Peace Lily",
+	"block.peace_lily.potted_bird_of_paradise": "Potted Bird of Paradise",
+	"block.peace_lily.potted_red_snapdragon": "Potted Red Snapdragon",
+	"block.peace_lily.potted_white_snapdragon": "Potted White Snapdragon",
+	"block.peace_lily.potted_magenta_snapdragon": "Potted Magenta Snapdragon",
+	"block.peace_lily.potted_yellow_snapdragon": "Potted Yellow Snapdragon"
 }

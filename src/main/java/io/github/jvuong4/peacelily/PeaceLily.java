@@ -1,5 +1,6 @@
 package io.github.jvuong4.peacelily;
 
+import io.github.jvuong4.peacelily.registry.PeaceLilyRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +11,7 @@ public class PeaceLily implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		PeaceLilyRegistry.init();
 		LOGGER.info("[Peace Lily] PEACE LILY is the world's PEACEFULLEST normal girl.");
 	}
 }

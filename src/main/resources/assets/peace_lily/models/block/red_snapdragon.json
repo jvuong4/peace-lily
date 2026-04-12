@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "peace_lily:block/red_snapdragon"
+	}
+}

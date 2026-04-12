@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "peace_lily:block/magenta_snapdragon"
+	}
+}

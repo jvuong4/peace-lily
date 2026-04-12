@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/flower_pot_cross",
+	"textures": {
+		"plant": "peace_lily:block/red_snapdragon"
+	},
+	"render_type":"cutout"
+}
