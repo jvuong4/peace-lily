@@ -1,5 +1,5 @@
 <!--suppress HtmlDeprecatedTag, XmlDeprecatedElement -->
-<center><img alt="mod preview" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"/></center>
+<center><img alt="mod preview" src="https://github.com/jvuong4/peace-lily/blob/main/src/main/resources/assets/peace_lily/icon.png"/></center>
 
 <center>
 A short quick summary of this mod
@@ -17,3 +17,5 @@ Screenshots of features where possible
 ---
 
 A footnote for special thanks, credits, and other shoutouts - including "created at modfest" banners.
+
+- Ananas asset from apfelrunder
