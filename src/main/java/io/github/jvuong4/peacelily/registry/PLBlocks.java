@@ -1,5 +1,6 @@
 package io.github.jvuong4.peacelily.registry;
 
+import io.github.jvuong4.peacelily.AnanasBlock;
 import io.github.jvuong4.peacelily.PeaceLily;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -14,6 +15,7 @@ import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 
@@ -47,12 +49,20 @@ public class PLBlocks {
 	public static FlowerPotBlock POTTED_WHITE_SNAPDRAGON = register_pot("potted_white_snapdragon", p -> new FlowerPotBlock(WHITE_SNAPDRAGON, p),flowerPotProperties(), false);
 	public static FlowerPotBlock POTTED_MAGENTA_SNAPDRAGON = register_pot("potted_magenta_snapdragon", p -> new FlowerPotBlock(MAGENTA_SNAPDRAGON, p),flowerPotProperties(), false);
 
+	public static AnanasBlock ANANAS = register("ananas",
+		properties -> new AnanasBlock(properties, Block.box(5, 0, 5, 11, 6, 11)),
+		BlockBehaviour.Properties.of()
+			.instabreak()
+			.noOcclusion()
+			.pushReaction(PushReaction.DESTROY)
+			.noLootTable()
+		,true);
 
-	private static FlowerBlock register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
+	private static <T extends Block> T register(String name, Function<BlockBehaviour.Properties, T> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
 		// Create a registry key for the block
 		ResourceKey<Block> blockKey = keyOfBlock(name);
 		// Create the block instance
-		FlowerBlock block = (FlowerBlock)blockFactory.apply(settings.setId(blockKey));
+		T block = blockFactory.apply(settings.setId(blockKey));
 
 		// Sometimes, you may not want to register an item for the block.
 		// Eg: if it's a technical block like `minecraft:moving_piston` or `minecraft:end_gateway`

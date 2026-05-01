@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=east": {
+			"model": "peace_lily:block/ananas",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "peace_lily:block/ananas"
+		},
+		"facing=south": {
+			"model": "peace_lily:block/ananas",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "peace_lily:block/ananas",
+			"y": 270
+		}
+	}
+}
