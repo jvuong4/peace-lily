@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "model",
-		"model": "peace_lily:item/ananas"
+		"model": "peace_lily:block/ananas"
 	}
 }
