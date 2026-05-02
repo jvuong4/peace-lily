@@ -1,4 +1,6 @@
 {
+	"creativeTab.peace-lily": "Peace Lily",
+
 	"block.peace_lily.peace_lily": "Peace Lily",
 	"block.peace_lily.bird_of_paradise": "Bird of Paradise",
 	"block.peace_lily.red_snapdragon": "Red Snapdragon",
@@ -28,5 +30,5 @@
 	"lore.peace_lily.potted_yellow_snapdragon": "A flower that has been placed in a Flower Pot.",
 
 	"block.peace_lily.ananas": "President Ananas",
-	"lore.peace_lily.ananas": "Hey, it's Ananas! President Ananas is obviously not a pineapple! A pineapple is a COMPLETELY different species of fruit. They can't even talk. So you wouldn't eat Ananas, right?",
+	"lore.peace_lily.ananas": "Hey, it's Ananas! President Ananas is obviously not a pineapple! A pineapple is a COMPLETELY different species of fruit. They can't even talk. So you wouldn't eat Ananas, right?"
 }
