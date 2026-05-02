@@ -12,5 +12,21 @@
 	"block.peace_lily.potted_white_snapdragon": "Potted White Snapdragon",
 	"block.peace_lily.potted_magenta_snapdragon": "Potted Magenta Snapdragon",
 	"block.peace_lily.potted_yellow_snapdragon": "Potted Yellow Snapdragon",
-	"block.peace_lily.ananas": "President Ananas"
+
+	"lore.peace_lily.peace_lily": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+	"lore.peace_lily.bird_of_paradise": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+	"lore.peace_lily.red_snapdragon": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+	"lore.peace_lily.white_snapdragon": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+	"lore.peace_lily.magenta_snapdragon": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+	"lore.peace_lily.yellow_snapdragon": "A flower that can be crafted into Dye or placed in a Flower Pot.",
+
+	"lore.peace_lily.potted_peace_lily": "A flower that has been placed in a Flower Pot.",
+	"lore.peace_lily.potted_bird_of_paradise": "A flower that has been placed in a Flower Pot.",
+	"lore.peace_lily.potted_red_snapdragon": "A flower that has been placed in a Flower Pot.",
+	"lore.peace_lily.potted_white_snapdragon": "A flower that has been placed in a Flower Pot.",
+	"lore.peace_lily.potted_magenta_snapdragon": "A flower that has been placed in a Flower Pot.",
+	"lore.peace_lily.potted_yellow_snapdragon": "A flower that has been placed in a Flower Pot.",
+
+	"block.peace_lily.ananas": "President Ananas",
+	"lore.peace_lily.ananas": "Hey, it's Ananas! President Ananas is obviously not a pineapple! A pineapple is a COMPLETELY different species of fruit. They can't even talk. So you wouldn't eat Ananas, right?",
 }

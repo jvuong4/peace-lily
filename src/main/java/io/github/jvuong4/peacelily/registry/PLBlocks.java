@@ -2,14 +2,18 @@ package io.github.jvuong4.peacelily.registry;
 
 import io.github.jvuong4.peacelily.AnanasBlock;
 import io.github.jvuong4.peacelily.PeaceLily;
+import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -105,5 +109,24 @@ public class PLBlocks {
 		return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PeaceLily.ID, name));
 	}
 
-	public static void init() {}
+	public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(
+		BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(PeaceLily.ID, "creative_tab")
+	);
+	public static final CreativeModeTab CUSTOM_CREATIVE_TAB = FabricCreativeModeTab.builder()
+		.icon(() -> new ItemStack(PEACE_LILY))
+		.title(Component.translatable("creativeTab.peace-lily"))
+		.displayItems((params, output) -> {
+			output.accept(PEACE_LILY);
+			output.accept(BIRD_OF_PARADISE);
+			output.accept(RED_SNAPDRAGON);
+			output.accept(YELLOW_SNAPDRAGON);
+			output.accept(WHITE_SNAPDRAGON);
+			output.accept(MAGENTA_SNAPDRAGON);
+			output.accept(ANANAS);
+		})
+		.build();
+
+	public static void init(){
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CUSTOM_CREATIVE_TAB_KEY, CUSTOM_CREATIVE_TAB);
+	}
 }
