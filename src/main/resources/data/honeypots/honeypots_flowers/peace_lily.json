@@ -1,0 +1,7 @@
+{
+	"flower": "peace_lily:peace_lily",
+	"effects": [{
+		"id": "minecraft:resistance",
+		"inverted": "bloom_festal:revelation"
+	}]
+}

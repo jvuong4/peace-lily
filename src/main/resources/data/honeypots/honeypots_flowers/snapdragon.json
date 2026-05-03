@@ -1,0 +1,12 @@
+{
+	"flower": [
+		"peace_lily:red_snapdragon",
+		"peace_lily:white_snapdragon",
+		"peace_lily:yellow_snapdragon",
+		"peace_lily:magenta_snapdragon"
+	],
+	"effects": [{
+		"id": "minecraft:instant_damage",
+		"inverted": "minecraft:instant_health"
+	}]
+}

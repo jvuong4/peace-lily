@@ -1,0 +1,11 @@
+{
+	"flower": "peace_lily:ananas",
+	"effects": [{
+		"id": "minecraft:glowing",
+		"inverted": {
+			"id":"minecraft:darkness",
+			"duration": 300,
+			"infinite": false
+		}
+	}]
+}

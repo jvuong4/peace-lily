@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "white_dye",
+	"ingredients": [
+		"peace_lily:white_snapdragon"
+	],
+	"result": {
+		"id": "minecraft:white_dye"
+	}
+}

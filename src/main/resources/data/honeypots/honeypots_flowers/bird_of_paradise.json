@@ -1,0 +1,11 @@
+{
+	"flower": "peace_lily:bird_of_paradise",
+	"effects": [{
+		"id": "minecraft:speed",
+		"inverted": {
+			"id":"bloom_festal:silence",
+			"duration": 200,
+			"infinite": false
+		}
+	}]
+}
